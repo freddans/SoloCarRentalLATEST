@@ -44,7 +44,6 @@ public class BookingService {
         if (optionalBooking.isPresent()) {
             Booking bookingToBeDeleted = optionalBooking.get();
 
-            // Change car to available
             Optional<Car> optionalCar = carRepository.findById(bookingToBeDeleted.getCar().getId());
             Optional<Customer> optionalCustomer = customerRepository.findById(bookingToBeDeleted.getCar().getId());
 
@@ -62,7 +61,6 @@ public class BookingService {
                 return "Order deleted: " + booking.getId();
             } else {
                 logger.warn("\nERROR: Either provided Customer ID or Car ID does not exist");
-
                 return "ERROR: Either provided Customer ID or Car ID does not exist";
             }
 

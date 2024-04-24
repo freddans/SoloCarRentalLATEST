@@ -91,7 +91,6 @@ public class CarService {
                 }
             } else {
 
-                // detta ska bort
             }
 
             logger.info(updateMessage);
