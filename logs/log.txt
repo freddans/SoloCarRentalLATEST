@@ -1,0 +1,107 @@
+2024-04-24 19:01:21,795 * INFO * com.example.redogroupsolo.services.CarService * updateCar * 
+Admin updated Car with id: 5
+Changed availability to: false
+
+2024-04-24 19:49:53,907 * INFO * com.example.redogroupsolo.services.CarService * updateCar * 
+Admin updated Car with id: 5
+Changed availability to: false
+
+2024-04-24 20:09:27,574 * INFO * com.example.redogroupsolo.services.BookingService * orderCar * 
+Customer Anders55 successfully ordered car: JHT534
+
+2024-04-24 20:10:21,283 * INFO * com.example.redogroupsolo.services.BookingService * orderCar * 
+Customer Anders55 successfully ordered car: TAM967
+
+2024-04-24 20:12:06,009 * INFO * com.example.redogroupsolo.services.BookingService * cancelOrder * 
+Customer Anders55 canceled their order for: TAM967
+
+2024-04-24 20:15:45,138 * INFO * com.example.redogroupsolo.services.CarService * addCar * 
+Admin added new car: Beuer Rollerskates with registration number: null
+
+2024-04-24 20:16:31,075 * INFO * com.example.redogroupsolo.services.CarService * deleteCar * 
+Admin deleted car: Beuer Rollerskates with registration number: null
+
+2024-04-24 20:16:35,371 * INFO * com.example.redogroupsolo.services.CarService * addCar * 
+Admin added new car: Beuer Rollerskates with registration number: ROL000
+
+2024-04-24 20:17:08,400 * INFO * com.example.redogroupsolo.services.CarService * updateCar * 
+Admin updated Car with id: 7
+Model changed to: skridskor
+
+2024-04-24 20:18:23,872 * INFO * com.example.redogroupsolo.services.CustomerService * addCustomer * Admin added new customer: senor
+2024-04-24 20:19:03,554 * INFO * com.example.redogroupsolo.services.CustomerService * updateCustomer * 
+Admin updated Customer with id: 6
+Username changed to: santa
+
+2024-04-24 20:19:27,213 * INFO * com.example.redogroupsolo.services.CustomerService * deleteCustomer * 
+Admin deleted customer: santa
+
+2024-04-24 20:21:41,785 * INFO * com.example.redogroupsolo.services.BookingService * orderCar * 
+Customer Pia132 successfully ordered car: TAM967
+
+2024-04-24 20:21:54,002 * INFO * com.example.redogroupsolo.services.BookingService * orderCar * 
+Customer Pia132 successfully ordered car: TAM967
+
+2024-04-24 20:22:06,572 * INFO * com.example.redogroupsolo.services.BookingService * orderCar * 
+Customer Freddan successfully ordered car: ABC123
+
+2024-04-24 20:22:22,564 * INFO * com.example.redogroupsolo.services.BookingService * orderCar * 
+Customer Freddan successfully ordered car: TAM967
+
+2024-04-24 20:22:25,604 * INFO * com.example.redogroupsolo.services.BookingService * orderCar * 
+Customer Freddan successfully ordered car: VRR332
+
+2024-04-24 20:22:32,011 * WARN * com.example.redogroupsolo.services.BookingService * orderCar * 
+ERROR: Car is already booked and is unavailable
+
+2024-04-24 20:26:43,057 * WARN * com.example.redogroupsolo.services.BookingService * deleteOrder * 
+ERROR: Order could not be found with id: 3
+
+2024-04-24 20:33:55,335 * INFO * com.example.redogroupsolo.services.BookingService * orderCar * 
+Customer Pia132 successfully ordered car: TAM967
+
+2024-04-24 20:34:04,377 * WARN * com.example.redogroupsolo.services.BookingService * orderCar * 
+ERROR: Car is already booked and is unavailable
+
+2024-04-24 20:35:14,645 * INFO * com.example.redogroupsolo.services.BookingService * cancelOrder * 
+Customer Pia132 canceled their order for: TAM967
+
+2024-04-24 20:35:28,905 * INFO * com.example.redogroupsolo.services.BookingService * orderCar * 
+Customer Freddan successfully ordered car: TAM967
+
+2024-04-24 21:59:54,108 * INFO * com.example.redogroupsolo.services.BookingService * orderCar * 
+Customer Freddan successfully ordered car: TAM967
+
+2024-04-24 22:00:01,311 * WARN * com.example.redogroupsolo.services.BookingService * orderCar * 
+ERROR: Car is already booked and is unavailable
+
+2024-04-24 22:00:22,337 * INFO * com.example.redogroupsolo.services.BookingService * cancelOrder * 
+Customer Freddan canceled their order for: TAM967
+
+2024-04-24 22:01:02,864 * INFO * com.example.redogroupsolo.services.BookingService * orderCar * 
+Customer Pia132 successfully ordered car: TAM967
+
+2024-04-24 22:02:54,277 * INFO * com.example.redogroupsolo.services.BookingService * cancelOrder * 
+Customer Pia132 canceled their order for: TAM967
+
+2024-04-24 22:02:58,000 * INFO * com.example.redogroupsolo.services.BookingService * cancelOrder * 
+Customer Freddan canceled their order for: TAM967
+
+2024-04-24 22:07:09,282 * INFO * com.example.redogroupsolo.services.BookingService * orderCar * 
+Customer Pia132 successfully ordered car: TAM967
+
+2024-04-24 22:07:17,201 * WARN * com.example.redogroupsolo.services.BookingService * cancelOrder * 
+ERROR: Customer tried to cancel order where order id does not exist
+
+2024-04-24 22:11:48,215 * INFO * com.example.redogroupsolo.services.BookingService * orderCar * 
+Customer Freddan successfully ordered car: TAM967
+
+2024-04-24 22:13:29,344 * INFO * com.example.redogroupsolo.services.BookingService * orderCar * 
+Customer Freddan successfully ordered car: TAM967
+
+2024-04-24 22:13:36,905 * INFO * com.example.redogroupsolo.services.BookingService * cancelOrder * 
+Customer Freddan canceled their order for: TAM967
+
+2024-04-24 22:26:08,018 * INFO * com.example.redogroupsolo.services.BookingService * deleteOrder * 
+Admin deleted order id: 1 with customer: tokstolle and car regnr: VRR332
+

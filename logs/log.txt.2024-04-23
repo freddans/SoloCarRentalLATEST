@@ -1,0 +1,21 @@
+2024-04-23 22:06:16,413 * INFO * com.example.redogroupsolo.services.CarService * addCar * 
+Admin added new car: Ferrari La Ferrari with registration number: null
+
+2024-04-23 22:06:31,422 * WARN * com.example.redogroupsolo.services.CarService * addCar * 
+ERROR: Admin tried to add new car with registrations number that already exists
+
+2024-04-23 22:06:40,158 * INFO * com.example.redogroupsolo.services.CustomerService * addCustomer * Admin added new customer: loshermano
+2024-04-23 22:06:44,329 * WARN * com.example.redogroupsolo.services.CustomerService * addCustomer * ERROR: Email already exists: marcus@loshermano.com
+2024-04-23 22:06:52,218 * WARN * com.example.redogroupsolo.services.CustomerService * addCustomer * ERROR: Phone number already exists: +46705556677
+2024-04-23 22:06:57,184 * INFO * com.example.redogroupsolo.services.CustomerService * addCustomer * Admin added new customer: loshermanos
+2024-04-23 22:07:38,602 * WARN * com.example.redogroupsolo.services.CarService * addCar * 
+ERROR: Admin tried to add new car with registrations number that already exists
+
+2024-04-23 22:08:43,796 * INFO * com.example.redogroupsolo.services.CarService * addCar * 
+Admin added new car: Ferrari La Ferrari with registration number: LAF111
+
+2024-04-23 22:09:07,730 * INFO * com.example.redogroupsolo.services.CarService * addCar * 
+Admin added new car: Porsche Grodbil with registration number: GRO222
+
+2024-04-23 22:09:45,864 * INFO * com.example.redogroupsolo.services.CustomerService * addCustomer * Admin added new customer: loshermano
+2024-04-23 22:09:58,807 * INFO * com.example.redogroupsolo.services.CustomerService * addCustomer * Admin added new customer: loshermanodos
